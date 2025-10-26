@@ -1,0 +1,113 @@
+using System;
+
+internal class Program
+{
+    static void Main()
+    {
+        //Console.WriteLine("Merhaba Dünya");
+        //Console.Write("Selam");
+        
+        //Yazdırma Komutları
+        //Console.WriteLine("*****Yemek Kategorileri*****");
+        //Console.WriteLine("____________________________");
+        //Console.WriteLine(" ");
+        //Console.WriteLine("1-Çorbalar");
+        //Console.WriteLine("2-Sıcak Başlangıçlar");
+        //Console.WriteLine("3-Soğuk Başlangıçlar");
+        //Console.WriteLine("4-Ana Yemekler");
+        //Console.WriteLine("5-Salatalar");
+        //Console.WriteLine("6-Tatlılar");
+        //Console.WriteLine("7-İçecekler");
+        
+
+        //String Değişkenleri
+        /* string name;
+        name = "Esmanur";
+        Console.WriteLine(name); */
+
+        /* string customerName, customerSurname, customerPhone, customerEmail, district, city;
+        
+        customerName = "Esmanur";
+        customerSurname = "Dönmez";
+        customerPhone = "0 555 555 55 55";
+        customerEmail = "customer@gmail.com";
+        district = "Kadıköy";
+        city = "İstanbul";
+        
+        Console.WriteLine("***** Rezervasyon Kartı *****");
+        Console.WriteLine("---------------------------- ");
+        Console.WriteLine("Müşteri: " + customerName +" " + customerSurname);
+        Console.WriteLine("Telefon numarası: " + customerPhone);
+        Console.WriteLine("E-mail adresi: " + customerEmail);
+        Console.WriteLine("Adres: " + district + " " + city);
+        Console.WriteLine("------------------------------"); */
+
+        // Integer Değişkenler
+
+        /* int number = 44;
+           Console.WriteLine(number); */
+
+        int hamburgerPrice = 300;
+        int cokePrice = 40;
+        int waterPrice = 20;
+        int friesPrice = 70;
+        int pizzaPrice = 350;
+        int lemonadePrice = 120;
+
+        Console.WriteLine(" Restoran Menü Fiyatları ");
+        Console.WriteLine("-------------------------");
+        Console.WriteLine("-> Hamburger: " + hamburgerPrice + " TL");
+        Console.WriteLine("-> Pizza: " + pizzaPrice + " TL");
+        Console.WriteLine("-> Water: " + waterPrice + " TL");
+        Console.WriteLine("-> Lemonade:  " + lemonadePrice + " TL");
+        Console.WriteLine("-> Fries: " + friesPrice + " TL" );
+        Console.WriteLine("-> Coke: " + cokePrice + " TL");
+        Console.WriteLine("--------------------------");
+
+        Console.WriteLine(" ");
+
+        int hamburgerCount;
+        int cokeCount;
+        int waterCount;
+        int friesCount;
+        int pizzaCount;
+        int lemonadeCount;
+ 
+        int totalHamburgerPrice;
+        int totalCokePrice;
+        int totalWaterPrice;
+        int totalFriesPrice;
+        int totalLemonadePrice;
+        int totalPizzaPrice;
+
+        hamburgerCount = 3;
+        cokeCount = 3;
+        waterCount = 3;
+        friesCount = 3;
+        pizzaCount = 1;
+        lemonadeCount = 0;
+
+        totalHamburgerPrice = hamburgerCount * hamburgerPrice;
+        totalCokePrice = cokeCount * cokePrice;
+        totalWaterPrice = waterPrice * waterCount;
+        totalFriesPrice = friesPrice * friesCount;
+        totalPizzaPrice = pizzaPrice * pizzaCount;
+        totalLemonadePrice = lemonadeCount * lemonadePrice;
+
+        Console.WriteLine("-------------------------- ");
+        Console.WriteLine("Hamburger tutarı : " + totalHamburgerPrice + " TL");
+        Console.WriteLine("Pizza tutarı : " + totalPizzaPrice + " TL");
+        Console.WriteLine("Kızartma tutarı: " + totalFriesPrice + " TL");
+        Console.WriteLine("Su tutarı:  " + totalWaterPrice + " TL");
+        Console.WriteLine("Kola tutarı:  " + totalCokePrice + " TL");
+        Console.WriteLine("Limonata tutarı: " + totalLemonadePrice + " TL");
+        Console.WriteLine(" ");
+
+        int totalPrice = totalHamburgerPrice + totalPizzaPrice + totalFriesPrice + totalWaterPrice + totalCokePrice + totalLemonadePrice;
+        Console.WriteLine("Toplam Ödenecek Tutar: " + totalPrice + " TL");
+        
+       	Console.Read();
+
+
+    }
+}
